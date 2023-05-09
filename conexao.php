@@ -1,4 +1,5 @@
 <?php
+
     $servername = "localhost";
     $database = "dbcaduser";
     $username = "root";
@@ -11,4 +12,5 @@
     }
     echo "Connected successfully";
     mysqli_close($conn);
+
 ?>
